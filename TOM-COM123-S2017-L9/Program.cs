@@ -10,6 +10,10 @@ namespace TOM_COM123_S2017_L9
     {
         static void Main(string[] args)
         {
+            var superHuman = new SuperHuman("Super Dude");
+            superHuman.Powers.Add(new Power("Spider Climbing", 50 ));
+            superHuman.AddPower("Super Jumping", 60);
+            superHuman.DisplayPowers();
         }
     }
 }
